@@ -31,7 +31,7 @@ body {
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-   
+
 }
 
 /* nav related styles */
@@ -102,10 +102,15 @@ nav a {
 
 /* main section styles */
 
-main{
+main {
     max-width: 1140px;
-    margin:0 auto; /*we can use justyfy content. margin: auto means divided by same px from both side.
+    margin: 0 auto;
+    /*we can use justify content. margin: auto means divided by same px from both side.
     /* justify-content: center; */
+}
+
+main section {
+    margin-top: 130px;
 }
 
 /* about section styles */
@@ -115,10 +120,41 @@ main{
     background: #FFF8F3;
     margin: 130px 0;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-between;
 }
-.about-info{
+
+.about-info {
     text-align: center;
+}
+
+.what_i_do-description {
+    padding: 30px 150px;
+}
+
+/* Skill related styles */
+.skill-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skil {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume */
+
+.resume-column-title {
+    color:#474747;
+    font-size: 30px;
+    font-weight: 700;
 }
